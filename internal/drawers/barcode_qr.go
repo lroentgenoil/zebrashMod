@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/fogleman/gg"
-	"github.com/ingridhq/zebrash/drawers"
-	"github.com/ingridhq/zebrash/internal/elements"
-	"github.com/ingridhq/zebrash/internal/images"
+	"github.com/lroentgenoil/zebrashMod/drawers"
+	"github.com/lroentgenoil/zebrashMod/internal/elements"
+	"github.com/lroentgenoil/zebrashMod/internal/images"
 	"github.com/makiuchi-d/gozxing"
 	"github.com/makiuchi-d/gozxing/qrcode"
 	"github.com/makiuchi-d/gozxing/qrcode/decoder"

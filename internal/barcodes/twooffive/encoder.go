@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/ingridhq/zebrash/internal/barcodes/utils"
+	"github.com/lroentgenoil/zebrashMod/internal/barcodes/utils"
 )
 
 const patternWidth = 5

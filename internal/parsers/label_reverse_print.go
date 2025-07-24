@@ -1,7 +1,7 @@
 package parsers
 
 import (
-	"github.com/ingridhq/zebrash/internal/printers"
+	"github.com/lroentgenoil/zebrashMod/internal/printers"
 )
 
 func NewLabelReversePrintParser() *CommandParser {

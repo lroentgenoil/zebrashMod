@@ -3,7 +3,7 @@ package parsers
 import (
 	"strconv"
 
-	"github.com/ingridhq/zebrash/internal/printers"
+	"github.com/lroentgenoil/zebrashMod/internal/printers"
 )
 
 func NewLabelHomeParser() *CommandParser {

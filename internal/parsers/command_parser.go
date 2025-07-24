@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ingridhq/zebrash/internal/elements"
-	"github.com/ingridhq/zebrash/internal/printers"
+	"github.com/lroentgenoil/zebrashMod/internal/elements"
+	"github.com/lroentgenoil/zebrashMod/internal/printers"
 )
 
 type CommandParser struct {

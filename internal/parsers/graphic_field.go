@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ingridhq/zebrash/internal/elements"
-	"github.com/ingridhq/zebrash/internal/hex"
-	"github.com/ingridhq/zebrash/internal/printers"
+	"github.com/lroentgenoil/zebrashMod/internal/elements"
+	"github.com/lroentgenoil/zebrashMod/internal/hex"
+	"github.com/lroentgenoil/zebrashMod/internal/printers"
 )
 
 func NewGraphicFieldParser() *CommandParser {

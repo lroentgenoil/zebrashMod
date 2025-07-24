@@ -6,10 +6,10 @@ import (
 	"math"
 
 	"github.com/fogleman/gg"
-	"github.com/ingridhq/zebrash/drawers"
-	"github.com/ingridhq/zebrash/elements"
-	drawers_internal "github.com/ingridhq/zebrash/internal/drawers"
-	"github.com/ingridhq/zebrash/internal/images"
+	"github.com/lroentgenoil/zebrashMod/drawers"
+	"github.com/lroentgenoil/zebrashMod/elements"
+	drawers_internal "github.com/lroentgenoil/zebrashMod/internal/drawers"
+	"github.com/lroentgenoil/zebrashMod/internal/images"
 )
 
 type reversePrintable interface {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/ingridhq/zebrash/internal/barcodes/utils"
-	"github.com/ingridhq/zebrash/internal/images"
+	"github.com/lroentgenoil/zebrashMod/internal/barcodes/utils"
+	"github.com/lroentgenoil/zebrashMod/internal/images"
 )
 
 const (

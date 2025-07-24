@@ -1,6 +1,6 @@
 package drawers
 
-import "github.com/ingridhq/zebrash/internal/elements"
+import "github.com/lroentgenoil/zebrashMod/internal/elements"
 
 type DrawerState struct {
 	AutoPosX float64

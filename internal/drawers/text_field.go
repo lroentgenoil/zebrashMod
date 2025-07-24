@@ -5,9 +5,9 @@ import (
 
 	"github.com/fogleman/gg"
 	"github.com/golang/freetype/truetype"
-	"github.com/ingridhq/zebrash/drawers"
-	"github.com/ingridhq/zebrash/internal/assets"
-	"github.com/ingridhq/zebrash/internal/elements"
+	"github.com/lroentgenoil/zebrashMod/drawers"
+	"github.com/lroentgenoil/zebrashMod/internal/assets"
+	"github.com/lroentgenoil/zebrashMod/internal/elements"
 )
 
 var (

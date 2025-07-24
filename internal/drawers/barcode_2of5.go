@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/fogleman/gg"
-	"github.com/ingridhq/zebrash/drawers"
-	"github.com/ingridhq/zebrash/internal/barcodes/twooffive"
-	"github.com/ingridhq/zebrash/internal/elements"
+	"github.com/lroentgenoil/zebrashMod/drawers"
+	"github.com/lroentgenoil/zebrashMod/internal/barcodes/twooffive"
+	"github.com/lroentgenoil/zebrashMod/internal/elements"
 )
 
 func NewBarcode2of5Drawer() *ElementDrawer {

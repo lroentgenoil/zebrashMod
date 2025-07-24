@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ingridhq/zebrash/internal/printers"
+	"github.com/lroentgenoil/zebrashMod/internal/printers"
 )
 
 func NewBarcodeFieldDefaults() *CommandParser {
