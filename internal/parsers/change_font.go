@@ -31,12 +31,12 @@ func NewChangeFontParser() *CommandParser {
 			}
 
 			if len(parts) > 1 {
-				v, _ := strconv.Atoi(strings.Trim(parts[1], " "))
+				v, _ := strconv.ParseFloat(strings.Trim(parts[1], " "), 64)
 				font.Height = float64(v)
 			}
 
 			if len(parts) > 2 {
-				v, _ := strconv.Atoi(strings.Trim(parts[2], " "))
+				v, _ := strconv.ParseFloat(strings.Trim(parts[2], " "), 64)
 				font.Width = float64(v)
 			}
 

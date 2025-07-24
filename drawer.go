@@ -23,6 +23,8 @@ type Drawer struct {
 func NewDrawer() *Drawer {
 	return &Drawer{
 		elementDrawers: []*drawers_internal.ElementDrawer{
+			drawers_internal.NewBackgroundImageDrawer(),
+			drawers_internal.NewBackgroundRectangleDrawer(),
 			drawers_internal.NewGraphicBoxDrawer(),
 			drawers_internal.NewGraphicCircleDrawer(),
 			drawers_internal.NewGraphicFieldDrawer(),
@@ -106,5 +108,5 @@ func (d *Drawer) DrawLabelAsPng(label elements.LabelInfo, output io.Writer, opti
 		gCtx.DrawImage(img, (labelWidth-imageWidth)/2, 0)
 	}
 
-	return images.EncodeMonochrome(output, gCtx.Image())
+	return gCtx.EncodePNG(output)
 }

@@ -18,6 +18,8 @@ func NewParser() *Parser {
 	return &Parser{
 		printer: printers.NewVirtualPrinter(),
 		commandParsers: []*parsers.CommandParser{
+			parsers.NewBackgroundRectangleParser(),
+			parsers.NewBackgroundImageParser(),
 			parsers.NewLabelHomeParser(),
 			parsers.NewLabelReversePrintParser(),
 			parsers.NewGraphicBoxParser(),
